@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-navbar {
+    width: 6rem;
+}
+
+.nav {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.primernavbar {
+    margin-bottom: 3rem;
+    border-bottom: 3px solid rgb(182, 169, 169);
+}
+
+.title {
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: rgb(23, 119, 209);
+}
+
+.otro {
+    justify-content: space-between;
+}
+
+footer .container-footer {
+    padding: 1rem;
+    width: 100%;
+    border-top: 3px solid rgb(182, 169, 169);
+    margin-top: 2rem;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    display: flex;
+}
+
+footer .container-footer i {
+    scale: 1.5;
+    opacity: 0.5;
+}
+
+.imagebody {
+    width: 95%;
+    height: 100vh;
+    background-image: url(../assets/img/default-wallpaper.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    z-index: -1;
+    border-radius: 30px;
+}
+.imagebody:hover{
+    cursor: pointer !important;
+    opacity: 1;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menunavbarbody {
+    border-radius: 20px;
+    padding: 1rem;
+    width: 80%;
+    height: 4.5rem;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 1); 
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.btn-clasificar {
+    height: 50px;
+    border-radius: 50px !important;
+}
+
+.menubody {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.desplegable {
+    border: 1px solid rgb(206, 202, 202) !important;
+    background-color: white !important;
+    color: black;
+}
+
+.dropdown ul li:hover{
+    cursor: pointer !important;
+    background-color: #0b5ed7; /*cambiar color*/
+    color: white;
+}
+
+.texto{
+    margin-top: 3rem;
+    text-shadow: 
+      -1px -1px 0 #000, 
+       1px -1px 0 #000, 
+      -1px  1px 0 #000, 
+       1px  1px 0 #000; 
+    font-size: 4rem;
+    font-family: sans-serif;
+
+    color: white;
+}
+.floating-btn{
+    scale: 1.5;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.img-box:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.img-box{
+    opacity: 0.9;
+    transition: all 300ms;
+}
+.btn-clasificar:hover{
+    scale: 1.1;
+    transition: all 300ms;
+}
+
+.cargar-archivo:hover{
+    scale: 1.1;
+    transition: all 300ms;
+}
+
